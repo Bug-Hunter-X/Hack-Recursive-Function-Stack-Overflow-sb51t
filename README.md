@@ -1,0 +1,3 @@
+# Hack Recursive Function Stack Overflow
+This repository demonstrates an uncommon error in Hack: a stack overflow resulting from a recursive function call. The `foo()` function calculates the factorial using recursion.  While this works for small inputs, for large values of `x`, the function will exceed the available stack space, leading to a runtime error.
+The `bug.hack` file shows the problematic code. The solution (`bugSolution.hack`) demonstrates an iterative approach that avoids this problem, ensuring the function works correctly for a wide range of inputs.
